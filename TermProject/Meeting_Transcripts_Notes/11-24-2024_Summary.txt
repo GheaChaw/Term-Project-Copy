@@ -1,0 +1,8 @@
+The team discussed their upcoming presentation, potential meeting times, and ways to improve the roommate form and database.
+
+The team is discussing their upcoming presentation and potential meeting times.
+They mention the need to practice presenting and update each other on their progress.
+They discuss the possibility of meeting on Wednesday and suggest a midday time.
+There is mention of a roommate form and database, but it is currently empty.
+They consider adding picture upload functionality to the roommate page.
+One team member is busy with other assignments but hopes to apply what they've learned to the project.

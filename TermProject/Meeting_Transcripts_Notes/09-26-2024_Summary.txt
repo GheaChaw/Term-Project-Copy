@@ -1,0 +1,7 @@
+The team discussed progress on tasks, set weekly objectives, and addressed challenges with virtual machines and APIs.
+
+The team discussed progress on various tasks, including the login/signup page and basic framework for the profile.
+They agreed to set weekly objectives and have a progress check-in on Thursdays.
+The team discussed the deadline for the midterm presentation and agreed to have something on the screen every Sunday.
+There was a discussion about using a standardized navigation bar and potentially using Bootstrap for improved design.
+They talked about difficulties with setting up virtual machines and accessing APIs for their projects.

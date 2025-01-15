@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="roomfinder.css">
+    <title>Room Posting Form</title>
+</head>
+<body>
+    <h1>Room Posting Form</h1>
+    <div class="back">
+        <form action="roomposting.php" method="POST" enctype="multipart/form-data">
+
+            <br>
+            <!-- Description -->
+            <label for="description">Description:</label>
+            <textarea id="description" name="description"></textarea>
+            <br><br>
+
+            <!-- Address -->
+            <label for="address">Address:</label>
+            <textarea id="address" name="address"></textarea>
+            <br><br>
+
+            <!-- Price -->
+            <label for="price">Price (monthly):</label>
+            <textarea type="number" id="price" name="price"></textarea>
+            <br><br>
+
+            <label for="contact">Contact (Phone):</label>
+            <textarea id="contact" name="contact"></textarea>
+            <br><br>
+
+            <!-- Bedrooms -->
+            <label for="bedrooms">Number of Bedrooms:</label>
+            <input type="number" id="bedrooms" name="bedrooms" min="1" max="10">
+            <br><br>
+
+            <!-- Bathrooms -->
+            <label for="bathrooms">Number of Bathrooms:</label>
+            <input type="number" id="bathrooms" name="bathrooms" min="1" max="10">
+            <br><br>
+
+            <!-- Distance -->
+            <label for="distance">Distance From Campus (miles):</label>
+            <input type="number" id="distance" name="distance" min="1" max="10">
+            <br><br>
+
+            <!-- Image -->
+            <label for="image">Image:</label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+            <br><br>
+
+            <!-- Utilities -->
+            <label>Utilities:</label><br>
+            <label for="washdry" class="indent">Washer/Dryer</label>
+            <input type="checkbox" id="washdry" name="washdry" value="Washer/Dryer">
+            <label for="ac" class="indent">Air Conditioner</label>
+            <input type="checkbox" id="ac" name="ac" value="Air Conditioner">
+            <label for="heater" class="indent">Heater</label>
+            <input type="checkbox" id="heater" name="heater" value="Heater">
+            <label for="dishwasher" class="indent">Dishwasher</label>
+            <input type="checkbox" id="dishwasher" name="dishwasher" value="Dishwasher">
+            <label for="wifi" class="indent">WiFi</label>
+            <input type="checkbox" id="wifi" name="wifi" value="WiFi">
+            <label for="other" class="indent">Other</label>
+            <input type="checkbox" id="other" name="other" value="Other">
+            <br><br>
+
+            <!-- Parking -->
+            <label>Parking:</label><br>
+            
+            <label for="parking_lot" class="indent">Parking Lot</label>
+            <input type="radio" id="parking_lot" name="parking" value="Parking Lot">
+            <label for="street_parking" class="indent">Street Parking</label>
+            <input type="radio" id="street_parking" name="parking" value="Street Parking">
+            <label for="no_parking" class="indent">No Parking</label>
+            <input type="radio" id="no_parking" name="parking" value="No Parking">
+            <br><br>
+
+            <!-- Accessibility -->
+            <label>Accessibility:</label><br>
+            
+            <label for="elevator" class="indent">Elevator</label>
+            <input type="checkbox" id="elevator" name="elevator" value="Elevator">
+            <label for="ramp" class="indent">Ramp</label>
+            <input type="checkbox" id="ramp" name="ramp" value="Ramp">
+            <label for="other_accessibility" class="indent">Other</label>
+            <input type="checkbox" id="other_accessibility" name="other_accessibility" value="Other">
+            <br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

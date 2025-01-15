@@ -1,0 +1,187 @@
+* {   
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FED9B7;
+}
+
+a{
+    text-decoration: none;
+}
+
+#search{
+    display:flex;
+
+}
+#search ul{
+    display:flex;
+    list-style: none;
+}
+#search li{
+    background-color:#F7A58F;
+    padding:4px;
+    border-radius: 4px;
+    color:#FDFCDC;
+    text-shadow: 1px 1px 1px #f9a188;
+    box-shadow: 2px 2px 2px #FED9B7;
+    margin: 10px;
+   
+}
+.card{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.img{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:48.25%;
+    height:250px;
+    background-color:#FEEBCA;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #f18c70;
+    margin-bottom:15px;
+    margin-right:15px;
+    margin-top: 0;
+    margin-left: 2px;
+}
+
+.overview{
+    width:48.25%;
+    height:250px;
+    background-color:#FEEBCA;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #f18c70;
+    margin-top:0;
+    margin-bottom:10px;
+    color:#0081A7;
+    font-size: 1em;
+
+}
+
+#overviewTitle{
+    margin-left: 14px;
+    margin-top: 14px;
+}
+
+.overview p{
+    margin-top: 10px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.box{
+    padding:15px;
+    width:850px;
+    height:auto;
+    background: #F7A58F;
+    border-radius:15px;
+    display: flex;
+    flex-wrap: wrap;
+    color:#FEEBCA;
+    box-shadow: 5px 5px 5px #fdc5b5;
+    margin-bottom: 15px;
+}
+.box ul{
+    display:flex;
+    padding:10px;
+    width:100%;
+}
+.box li{
+    display:flex;
+    margin:10px;
+}
+
+.desc{
+    padding:15px;
+    width:45%;
+    height:300px;
+    background: #FEEBCA;
+    border-radius:15px;
+    color:#0081A7;
+}
+
+
+.desc ul{
+    display:block;
+    font-size: 20px;
+    list-style-type: disc;
+}
+.desc li{
+    list-style-type: disc;
+}
+
+
+#t1{
+    margin-right:15px;
+}
+
+.houseContact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    width:100%;
+
+}
+
+
+.address{
+    background-color: #BEE9D4;
+    color:#0081A7;
+    font-size: 25px;
+    width:47%;
+    height:40px;
+    margin-top:0;
+    margin-bottom:15px;
+    margin-right:13px;
+    border-radius: 15px;
+    padding:7px;
+    text-shadow:2px 2px 2px #a4d3bc;
+    box-shadow: 5px 5px 5px #f18c70;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    background-color: #BEE9D4;
+    color:#0081A7;
+    font-size: 25px;
+    width: 47%;
+    height:40px;
+    margin-top:0;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding:7px;
+    text-shadow:2px 2px 2px #a4d3bc;
+    box-shadow: 5px 5px 5px #f18c70; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roommate{
+    width:255px;
+    height:300px;
+    background-color:#FDFCDC;
+    border-radius:15px;
+    box-shadow: 5px 5px 5px #f18c70;
+}
+
+h4{
+    font-size:30px;
+    font-weight: 100;
+}
+#call{
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.contact p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}

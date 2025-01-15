@@ -1,0 +1,237 @@
+* {   
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+h1 {
+    color: #0098B0;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow:0px 2px 2px;
+    background-color: rgb(255, 190, 156);
+    padding: 10px 20px;
+    border-radius: 10px;
+    width:100%;
+}
+
+body{
+    background-color: #FED9B7;
+}
+
+.search{
+    display:flex;
+    z-index:2;
+    position:fixed;
+    margin-left:10px;
+    margin-top:10px;
+    
+}
+.search ul{
+    display:flex;
+    list-style: none;
+}
+.search li{
+    background-color:#00AFB9;
+    padding:4px;
+    border-radius: 4px;
+    color:black;
+    text-shadow: 1px 1px 1px #009FA8;
+    box-shadow:0px 0px 4px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+   
+}
+#card{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    z-index: 0.5;
+}
+.image{
+    width:50%;
+    height:250px;
+    background-color:#FEEBCA;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #f18c70;
+    margin-bottom:15px;
+}
+.image img{
+    border-radius: inherit;
+    height: 100%;
+    object-fit: cover;
+    width:100%;
+}
+.box{
+    margin-top:20px;
+    padding:15px;
+    width:90%;
+    height:auto;
+    background: #F7A58F;
+    border-radius:15px;
+    display: flex;
+    flex-wrap: wrap;
+    color:#FEEBCA;
+    box-shadow: 5px 5px 5px #fdc5b5;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+.box::hover{
+    color:#f3d8a9;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+.traits{
+    padding:15px;
+    width:49%;
+    height:400px;
+    background: #FEEBCA;
+    border-radius:15px;
+    color:#F7A58F;
+}
+
+.traits ul{
+    padding:20px;
+    display:block;
+    font-size: 20px;
+    list-style-type: disc;
+}
+.traits li{
+    list-style-type: disc;
+}
+
+
+#t1{
+    margin-right:15px;
+}
+#name{
+    background-color: #BEE9D4;
+    color:#0081A7;
+    font-size: 25px;
+    width:49%;
+    height:40px;
+    margin-top:0;
+    margin-bottom:10px;
+    margin-right:20px;
+    border-radius: 15px;
+    padding:7px;
+    text-shadow:2px 2px 2px #a4d3bc;
+    box-shadow: 5px 5px 5px #f18c70;
+}
+.roommate{
+    width:280px;
+    height:300px;
+    background-color:#FDFCDC;
+    border-radius:15px;
+    box-shadow: 5px 5px 5px #f18c70;
+    margin:15px;
+    padding:15px;
+    color:#f18c70;
+    justify-content: center;
+}
+.hobbies{
+    width:47%;
+    height:200px;
+    padding:10px;
+}
+h4{
+    font-size:30px;
+    font-weight: 100;
+}
+#favorite{
+    float:right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#message{
+    float:right;
+
+}
+
+/* #logoButton{
+    margin:5px;
+    height: 60px;
+} */
+.box2{
+    padding:15px;
+    width:900px;
+    height:auto;
+    background: #F7A58F;
+    border-radius:15px;
+    display: flex;
+    flex-wrap: wrap;
+    color:#FEEBCA;
+    box-shadow: 5px 5px 5px#fdc5b5;
+    margin-bottom: 15px;
+}
+.user_photo{
+    width:100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px#f7e6a3;
+}
+
+p{
+    font-size: 20px;
+}
+.filter{
+    margin-left:5px;
+    margin-top:5px;
+    background-color: #f18c70;
+    border-radius: 10px;
+    width:100px;
+    padding:5px;
+}
+
+.hidden{
+    visibility: hidden;
+    opacity:0;
+}
+
+
+.formyForm{
+    background-color: #0081A7; 
+    width:100%;
+    max-height:700px;
+    overflow: auto;
+    padding:10px;
+    z-index: 1;
+}
+fieldset{
+    padding:5px;
+}
+
+#formFilter{
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    color:#FDFCDC;
+    width: 60%;
+    margin-left:20%;
+    position: fixed;
+    padding:10px;
+    
+    margin-top:0%;
+    /* dimmed background */
+}
+#filterTitle{
+    font-size: 1.5em;
+    margin: 7px;
+}
+
+#xButton{
+    position: absolute;
+    top: 7px;
+    right: 50px;
+    font-size: 1.5em;
+}
+
+textarea{
+    height:30px;
+    width:300px;
+}
+

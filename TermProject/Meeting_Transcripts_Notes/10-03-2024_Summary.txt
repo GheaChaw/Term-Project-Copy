@@ -1,0 +1,8 @@
+The meeting discussed scheduling an appointment, resolving conflicts, validating pages, updating GitHub, working on search function and surveys, deciding housing filter categories, and ensuring styled and validated pages.
+
+Need to schedule an appointment with Dr. Callihan for Sunday at 8 PM.
+Conflicts in Sophia's branch need to be resolved, plan to discuss with her.
+Validate pages and consider adding styling, focus on backend functionality first.
+The team needs to update the GitHub set and work on the search function and surveys.
+They are considering what categories to include in the housing filter.
+Each member needs to ensure their pages are styled and validated, but nothing too elaborate.

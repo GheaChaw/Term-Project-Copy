@@ -1,0 +1,7 @@
+The meeting discussed progress on researching APIs and matching algorithms for a housing project, with concerns raised about implementing scraping and plans made to create a portal for house owners.
+
+Felipe and Sophia discussed their progress on researching APIs and matching algorithms for the housing project.
+They considered using filters and assigning profiles a true/false value based on matching preferences.
+Felipe expressed concern about the difficulty of implementing scraping due to limited time.
+JJ mentioned finding potential scrapers on GitHub but expressed uncertainty about integrating them with the project.
+The team discussed creating a portal for house owners to add their information, with JJ offering to handle the back end.

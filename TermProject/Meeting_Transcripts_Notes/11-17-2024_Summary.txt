@@ -1,0 +1,7 @@
+The team discussed their individual progress on various tasks and planned to meet after Thanksgiving to work on the presentation.
+
+Felipe has been working on form stuff for filtering but is unsure about implementing dynamic updates.
+JJ has completed the login storage and needs to merge it into the main thing. Next, he will work on the backend for the survey.
+Sophia has started working on putting else on the PHP end and needs to learn PHP.
+Felipe suggests connecting the matching with the login and potentially creating a profile page.
+The team plans to meet after Thanksgiving to work on the presentation and practice.

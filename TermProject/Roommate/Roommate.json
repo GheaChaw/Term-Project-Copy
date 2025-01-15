@@ -1,0 +1,76 @@
+{
+   "items": [
+      {
+        "id": 0,
+        "Name": "Bobby",
+        "img": "https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_3x4.jpg",
+        "age": "20",
+        "description": "I love being outdoors, going to the gym or pilates, playing tennis, hanging out with friends, going to concerts, and watching sunsets! I’m planning to rush in the fall and looking to meet new people as well as a roommate so feel free to reach out :)",
+        "likes": ["dogs","children","sleep","chairs"],
+        "dislikes":["humans", "pencils", "everything", "plants", "trees"]
+      },
+      {
+        "id": 1,
+        "Name": "Jimmy",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZP1_j8n-01LgNXLZ6ieQCU3CMTh3pLVg2Aw&s",
+        "age": "19",
+        "description": "I play clarinet and I am auditioning for the band :) I love sunsets, pasta & sweets, crafts, and star wars! I am more of a staying in type person but I’d also love to go out too! Feel free to reach out, I’d love to get to know you!",
+        "likes": ["dogs","children","sleep","chairs", "clarinet"],
+        "dislikes":["humans", "pencils", "everything", "plants", "trees"]
+     },
+     {
+        "id": 2,
+        "Name": "Tommy",
+        "img": "https://news.ucsb.edu/sites/default/files/styles/large_2340x1212/public/2023-08/dog-nose-istock-uc-santa-barbara-small_0.jpg?itok=DJzNcrbH",
+        "age": "18",
+        "description": " I love traveling, going out, skiing, surfing, art, working out, and anything outdoors.",
+        "likes": ["turkeys","children","sleep","chairs"],
+        "dislikes":["humans", "pencils", "everything", "plants", "trees"]
+     },
+     {
+        "id": 3,
+        "Name": "Timmy",
+        "img": "https://cdn.britannica.com/34/235834-050-C5843610/two-different-breeds-of-cats-side-by-side-outdoors-in-the-garden.jpg",
+        "age": "19",
+        "description": "I don't want to fill out this field >:(",
+        "likes": ["turkeys","children","sleep","chairs"],
+        "dislikes":["humans", "pencils", "everything", "plants", "trees"]
+     },
+     {
+        "id": 4,
+        "Name": "Jenny",
+        "img": "https://images.ctfassets.net/cnu0m8re1exe/4luBczkxnxMMVO4gTiz0vD/6f290be6f5340264ddc1fe0977134a90/Untitled_design_-_2023-06-20T145027.117.png?fm=jpg&fl=progressive&w=660&h=433&fit=fill",
+        "age": "20",
+        "description": "i love any kind of performing (theatre, singing, & my bad stand up), audiobooks and long walks, and playing frisbee. my music taste is everywhere but current favorite artists are boy pablo, george harrison, baby keem, and hozier 🎸 looking to meet new friends and find a roommate so don't hesitate to dm!",
+        "likes": ["turkeys","children","sleep","chairs"],
+        "dislikes":["humans", "pencils", "everything", "plants", "trees"]
+     },
+     {
+        "id": 5,
+        "Name": "Penny",
+        "img": "https://cdn.outsideonline.com/wp-content/uploads/2023/03/Funny_Dog_S.jpg",
+        "age": "21",
+        "description": "I enjoy working on my ball handling skills (basketball), navigating across large bodies of water on various boards and vessels, reading/analyzing Shakespearean literature, and yes, being 6’3”. In my free time I wholesale real estate, run a small drop shipping website, and help elderly women cross the street. If you’re interested in rooming with me, wander into the forest during the next full moon and call my name three times.",
+        "likes": ["turkeys","children","sleep","chairs"],
+        "dislikes":["humans", "pencils", "everything", "plants", "trees"]
+     },
+     {
+        "id": 6,
+        "Name": "Lemmy",
+        "img": "https://www.purina.co.uk/sites/default/files/2020-12/Understanding%20Your%20Cat%27s%20Body%20LanguageTEASER.jpg",
+        "age": "20",
+        "description": "My bed time is at 8:30 pm, I am looking for a roommate who has a similar sleep schedule to me! I also really like cats and have 15 of them!",
+        "likes": ["turkeys","children","sleep","chairs"],
+        "dislikes":["humans", "pencils", "everything", "plants", "trees"]
+     },
+     {
+        "id": 7,
+        "Name": "Remy",
+        "img": "https://straycatalliance.org/wp-content/uploads/2022/08/cat-2.png",
+        "age": "19",
+        "description": "Im looking for a roommate bc the person I was gonna room with took a bunch of shrooms and ran off into forest (but who hasn’t yk), so hmu. I like camping and photography and have been known to tear up a skatepark every now and then. I also play ultimate and like to work on my vw van bc it breaks down like every other week.",
+        "likes": ["turkeys","children","sleep","chairs"],
+        "dislikes":["humans", "pencils", "everything", "plants", "trees"]
+     }
+   ]
+}

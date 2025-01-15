@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href = "survey.css">
+    <title>Roommate Preferences Form</title>
+
+    <!-- auto redirect to php version of this page -->
+    <script>
+        window.location.replace("roommateSurvey.php");
+    </script>
+</head>
+<body>
+    <h1>Roommate Preferences Form</h1>
+    <div class = "back">
+    <form action="RoommateFinder.html">
+        <!-- Quiet Hours -->
+        <label for="quiet-hours" class="label-title">Quiet Hours:</label>
+        <select id="quiet-hours" name="quiet-hours">
+            <option value="morning">Morning</option>
+            <option value="afternoon">Afternoon</option>
+            <option value="evening">Evening</option>
+            <option value="night">Night</option>
+        </select>
+        <br><br>
+
+        <!-- Bedtime -->
+        <label for="bedtime" class="label-title">Bedtime:</label>
+        <select id="bedtime" name="bedtime">
+            <option value="9pm">9 PM</option>
+            <option value="10pm">10 PM</option>
+            <option value="11pm">11 PM</option>
+            <option value="12am">12 AM</option>
+            <option value="1am-later">1AM - later</option>
+
+        </select>
+        <br><br>
+
+        <!-- Wake Up Time -->
+        <label for="wake-up-time" class="label-title">Wake Up Time:</label>
+        <select id="wake-up-time" name="wake-up-time">
+            <option value="before-6am">Before 6 AM</option>
+            <option value="6am-8am">6 AM - 8 AM</option>
+            <option value="after-8am">After 8 AM</option>
+        </select>
+        <br><br>
+
+        <!-- Preferred Gender -->
+        <label for="gender" class="label-title">Preferred Gender:</label>
+        <label for="male" class = "indent">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female" class = "indent">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="no-preference" class = "indent">No Preference</label>
+        <input type="radio" id="no-preference" name="gender" value="no-preference">
+        
+        <br><br>
+
+        <!-- Cleanliness Rating -->
+        <label for="cleanliness" class="label-title">Cleanliness Rating (1-10):</label>
+        <input type="number" id="cleanliness" name="cleanliness" min="1" max="10">
+        <br><br>
+
+        <!-- Guest Policy -->
+        <label for="guest-policy" class="label-title">Guest Policy:</label>
+        <textarea id="guest-policy" name="guest-policy"></textarea>
+        <br><br>
+
+        <!-- Sharing Items Policy -->
+        <label for="sharing-items" class="label-title">Sharing Items Policy:</label>
+        <textarea id="sharing-items" name="sharing-items"></textarea>
+        <br><br>
+
+        <!-- Music/Movies/TV Shows -->
+        <label for="music-movies" class="label-title">Music/Movies/TV Shows (Genres):</label>
+        <textarea id="music-movies" name="music-movies"></textarea>
+        <br><br>
+
+        <!-- Social Level -->
+        <label for="social-level" class="label-title">How social are you (1-10):</label>
+        <input type="number" id="social-level" name="social-level" min="1" max="10">
+        <br><br>
+
+        <!-- Preferred Temperature -->
+        <label for="temperature" class="label-title">Preferred Temperature (°F):</label>
+        <input type="range" id="temperature" name="temperature" min="60" max="80">
+        <br><br>
+
+        <!-- Noise Level -->
+        <label for="noise-level" class="label-title">Noise Level (1-10):</label>
+        <input type="number" id="noise-level" name="noise-level" min="1" max="10">
+        <br><br>
+
+        <!-- Wanted Privacy Level -->
+        <label for="privacy-level"  class="label-title">Wanted Privacy Level:</label>
+        <label for="low-privacy" class = "indent">Low</label>
+        <input type="radio" id="low-privacy" name="privacy-level" value="low">
+        <label for="medium-privacy" class = "indent">Medium</label>
+        <input type="radio" id="medium-privacy" name="privacy-level" value="medium">
+        <label for="high-privacy" class = "indent">High</label>
+        <input type="radio" id="high-privacy" name="privacy-level" value="high">
+        <br><br>
+
+        <!-- Morning or Night Person -->
+        <label for="day-person"  class="label-title">Morning or Night Person:</label>
+        
+        <label for="morning-person" class = "indent">Morning</label>
+        <input type="radio" id="morning-person" name="day-person" value="morning">
+        <label for="night-person" class = "indent">Night</label>
+        <input type="radio" id="night-person" name="day-person" value="night">
+        <br><br>
+
+        <!-- Snorer -->
+        <label for="snore-level" class="label-title">Snorer:</label>
+        <label for="no-snore" class = "indent">No</label>
+        <input type="radio" id="no-snore" name="snore-level" value="no">
+        <label for="light-snore" class = "indent">Light</label>
+        <input type="radio" id="light-snore" name="snore-level" value="light">
+        <label for="medium-snore" class = "indent">Medium</label>
+        <input type="radio" id="medium-snore" name="snore-level" value="medium">
+        <label for="heavy-snore" class = "indent">Heavy</label>
+        <input type="radio" id="heavy-snore" name="snore-level" value="heavy">
+        <br><br>
+
+        <!-- Major -->
+        <label for="major" class="label-title">Major:</label>
+        <input type="text" id="major" name="major">
+        <br><br>
+
+        <!-- Allergies -->
+        <label for="allergies" class="label-title">Allergies (specify severity):</label>
+        <textarea id="allergies" name="allergies"></textarea>
+        <br><br>
+
+        <!-- Pets -->
+        <label for="pets" class="label-title">Pets:</label>
+        <label for="yes-pets" class = "indent">Yes</label>
+        <input type="radio" id="yes-pets" name="pets" value="yes">
+        <label for="no-pets" class = "indent">No</label>
+        <input type="radio" id="no-pets" name="pets" value="no">
+        <br><br>
+
+        <!-- Additional Information/About Me -->
+        <label for="about-me" class="label-title">Additional Information/About Me:</label>
+        <textarea id="about-me" name="about-me"></textarea>
+        <br><br>
+
+        <!-- General Interests -->
+        <label for="interests" class="label-title">General Interests:</label>
+        <textarea id="interests" name="interests"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+</body>
+</html>

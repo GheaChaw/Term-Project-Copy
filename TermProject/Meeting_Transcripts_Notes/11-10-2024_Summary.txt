@@ -1,0 +1,12 @@
+The meeting discussed changes to the schedule, challenges with permissions and grading, confusion about database setup, and decisions regarding user features for a housing project.
+
+The chapter schedule has changed and now takes place at 7 PM on Sundays.
+The team members are working on building forms and implementing database functionality for the project.
+There were challenges with accessing permissions on Azure and concerns about how the lab will be graded.
+The professor did not provide specific instructions related to the project during the meeting.
+There is confusion about the setup of the database and the purpose of different tables.
+They discuss the need for separate sections for landlords and subletters in the housing listings.
+They consider making it optional for users to fill out a roommate survey but still encourage its completion.
+The possibility of allowing users to see profiles without filling out the form is debated.
+Consider combining the edit and create profile functions to streamline the user experience.
+Prioritize getting the basic features, such as adding, listing, and matching rooms, working first.

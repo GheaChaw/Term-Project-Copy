@@ -1,0 +1,5 @@
+Felipe: worked on filtering system, working on some backend and has a version of displaying it
+Sophia: kept working on matching system, set up backend query for it, just need to get preferences from logged in user
+Possible format of displaying search/matching results: display name, age, and gender
+Ghea: fixed CSS from quiz, fixed roommate survey CSS so everything is aligned, adding part in survey for picture as an image link
+Plans to test PHP as we go along, make our own smaller test databases

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv='refresh' content='0; URL=./login.php'>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="index.css">
+  <style>
+    .error {
+      color: #721c24;
+      background-color: #f8d7da;
+      border-color: #f5c6cb;
+    }
+  </style>
+  <script>
+    window.onload = function() {
+      var invalidField = "<?= $invalidField ?>";
+      if (invalidField) {
+        document.getElementById(invalidField).focus();
+      }
+    };
+  </script>
+</head>
+
+<body>
+ 
+  <form action="" method="POST">
+    <div class="imgcontainer">
+      <img src="./resources/roomeaselogo.png" alt="RoomEase" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="email"><b>Email</b></label>
+      <input type="text" id="email" placeholder="Enter Email" name="email" value="<?= htmlspecialchars($email) ?>" required>
+
+      <label for="password"><b>Password</b></label>
+      <input type="password" id="password" placeholder="Enter Password" name="password" value="<?= htmlspecialchars($password) ?>" required>
+
+      <button type="submit">Login</button>
+      
+    </div>
+
+    <div class="container" >
+      <button type="button" class="cancelbtn">Cancel</button>
+      <!-- <span><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Forgot password?</a></span> -->
+      <span class="password"><a href="signup.php" id = "signup">Signup Here</a></span>
+    </div>
+  </form>
+  
+</body>
+
+</html>

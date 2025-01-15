@@ -1,0 +1,6 @@
+The meeting discussed the upcoming presentation, refining the homepage, styling efforts, and the need for proper page linking.
+
+The presentation is on Friday and there is a meeting scheduled for Thursday to discuss any necessary changes.
+The homepage has been refined with links to the find a room, find a roommate, and sign-in pages.
+Styling is being worked on, with efforts to align colors and make everything look the same.
+The team needs to ensure that all pages are properly linked for a demo.

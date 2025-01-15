@@ -1,0 +1,5 @@
+AI transcript didn't work, storage full or something
+
+Brooke - I just continued to work on the php for posting listings and am working toward finishing that up and getting it to display on the page
+Felipe - for my part just continuing working on the filtering for the house listing page and just need to make a fake back end to test stuff
+Sophia - Continued working on matching system, identified part that I need some help with (identifying the preferences from the user and how to pull that specific data from the SQL table to use in a query when finding roommate matches, also working on styling things

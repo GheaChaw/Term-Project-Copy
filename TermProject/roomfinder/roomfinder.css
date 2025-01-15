@@ -1,0 +1,303 @@
+body {
+    background-image: linear-gradient(to bottom right, #F07167,#F7A58F, #FDFCDC);
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* colors
+$cerulean: #0081a7ff;
+$blue-munsell: #0098b0ff;
+$verdigris: #00afb9ff;
+$robin-egg-blue: #40c3c2ff;
+$celadon: #bee9d4ff;
+$light-yellow: #fdfcdcff;
+$papaya-whip: #feebcaff;
+$light-orange: #fed9b7ff;
+$melon: #f7a58fff;
+$bittersweet: #f07167ff;
+*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #FDFCDC;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #0098B0;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow:0px 2px 2px;
+    background-color: rgb(255, 190, 156);
+    padding: 10px 20px;
+    border-radius: 10px;
+    width:100%;
+}
+label {
+    display: inline-block;
+    width:51%;
+    margin-top:10px;
+    color: #0098b0ff;
+    font-weight: bold;
+}
+
+input[type="text"], select, textarea, input[type="number"], input[type="range"] {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #F7A58F;
+    font-size: 1em;
+}
+
+
+form {
+    align-items: center;
+    padding:20px;
+}
+
+.label-title{
+    font-weight:bolder;
+    font-size:1.3em;
+}
+
+.back{
+    background-color: #feebcaff;
+    width: 50%;
+    border-radius:15px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3); ;
+    margin-bottom: 30px;
+}
+
+/* adding box-sizing to all elements so padding doesn't have an effect on the size of the div */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    padding-top:10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    background:darkcyan;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    /* gap determines the spacing in between the items */
+    gap: 17%;
+}
+
+.navLogo{
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.navButton {
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/* div that holds the sortBy and filter buttons */
+#filterButtons {
+    display: flex;
+    justify-content: space-between;    
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color:#FDFCDC; 
+}
+
+
+/* creating the filter button */
+#filterHouse{
+    height: 50px;
+    width: 150px;
+    margin-left: 50px;
+    background-color:#F7A58F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color:black;
+}
+
+#postHouse{
+    height: 50px;
+    width: 150px;
+    margin-left: 50px;
+    background-color:#F7A58F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color:black;
+}
+
+#postHouse:hover {
+    background-color: lightsalmon;
+    cursor: grab;
+}
+
+/* creating the sortBy button */
+#sortBy{
+    height: 50px;
+    width: 150px;
+    background-color:#F7A58F;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-left: 500px;
+}
+
+#postHouse{
+    margin-left: 500px;
+}
+
+#sortBy:hover{
+    background-color: lightsalmon;
+    cursor: grab;
+}
+
+#filterHouse:hover {
+    background-color: lightsalmon;
+    cursor: grab;
+}
+
+#popupFilter{
+    /* change to none when done */
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    color:#FDFCDC;
+}
+
+#formFilter{
+    position: fixed;
+    width: 50%;
+    margin-top: 500px;
+    height: 500px;
+    /* dimmed background */
+    background-color: #0081A7; 
+}
+
+fieldset{
+    margin-left: 10px;
+}
+
+.hidden{
+    visibility: hidden;
+    opacity:0;
+}
+
+.show{
+    visibility: visible;
+    opacity: 1;
+}
+
+#filterTitle{
+    font-size: 1.5em;
+    margin: 7px;
+}
+
+#xButton{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    font-size: 1.5em;
+}
+
+.housingMain{
+    /* making sure the height of the page is maxed out */
+    min-height: 100vh;
+    width: 100%;
+    background-color: #FED9B7;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.box{
+    padding:15px;
+    width:80%;
+    height:auto;
+    background: #F7A58F;
+    border-radius:15px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 5px #fdc5b5;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+#housingField{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 15px;
+    /* gap = vertical horizontal */
+    gap: 20px 90px ;   
+}
+
+#housingField li{
+    height: 300px;
+    width: 280px;
+    background-color:#FDFCDC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: medium;
+
+}
+
+.imageDesc{
+    margin-top: 5px;
+    font-size:25px;
+    font-weight: 100;
+    height: 40px;
+    width: 230px;
+    color:#0081A7;
+    background-color: #BEE9D4;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.indent{
+    margin-left:40px;
+    font-size:1em;
+    font-weight:200;
+    color: #07acc6;
+    margin-right:50px;
+}

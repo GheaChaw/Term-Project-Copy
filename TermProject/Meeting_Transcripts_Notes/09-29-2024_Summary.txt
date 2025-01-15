@@ -1,0 +1,10 @@
+The team discussed progress on website development, identified areas for improvement, and planned future tasks.
+
+JJ set up a testing login and sign up page that checks with the database.
+Felipe plans to combine his design with Ghea's for easier database integration.
+The team aims to have all pages combined and on the same page by the end of the week.
+Felipe suggests leaving the navigation bar for last, as it is a simple alteration.
+Sophia will work on creating a homepage and will submit a pull request for it.
+The team discussed the possibility of having additional meetings on Fridays to allow more time for independent work.
+They discovered that their HTML pages did not validate properly, resulting in a loss of five points.
+The team discussed using a VS code extension called W3C web validator to easily check HTML validation.

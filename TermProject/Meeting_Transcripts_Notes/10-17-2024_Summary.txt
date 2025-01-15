@@ -1,0 +1,8 @@
+The meeting focused on completing the presentation, ensuring consistent styling, and discussing design elements such as color scheme and box alignment with scroll functionality.
+
+The presentation is due next week Friday and should be 5 minutes long with 5-minute questions.
+The team should focus on finishing their pages and ensuring consistent styling across all pages.
+Consider creating branches to work on styling without affecting the structure of the pages.
+The team discussed matching the login and sign up pages to a specific design vibe.
+They considered using a color scheme with orange, yellow, white, and pink for the pages.
+There was a discussion about aligning the boxes on the left side of the page and adding scroll functionality.

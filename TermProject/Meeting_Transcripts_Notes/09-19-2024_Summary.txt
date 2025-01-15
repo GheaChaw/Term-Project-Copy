@@ -1,0 +1,11 @@
+The team discussed refining the plan, setting deadlines, and dividing tasks for a web project, with a focus on HTML before JavaScript and prioritizing the front end.
+
+The team needs to refine the plan, divvy up tasks, and focus on basic HTML before adding JavaScript.
+They should use a project section on Google Docs and set weekly deadlines to avoid procrastination.
+The front end should be prioritized and completed within a month, with the back end being less time-sensitive.
+The team discussed the possibility of using a questionnaire with a big box of text and clickable buttons.
+They planned to create fake entries for the search section and implement sorting.
+There was a discussion about dividing tasks, with one person focusing on the roommate feature and another on the housing feature.
+The team discussed using AI to generate a logo and agreed to explore this option further.
+They planned to meet again on Sunday to discuss progress and share files.
+Whitehurst was assigned to work on the backend, specifically focusing on filtering and survey functionality.

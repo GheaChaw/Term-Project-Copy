@@ -1,0 +1,8 @@
+The meeting discussed website updates, presentation content, login functionality, page order, navigation flow, and logo concerns.
+
+The team has reworked the homepage and added hyperlinks to other pages, matching the aesthetic.
+They plan to give a brief description of what they worked on in the slides for the presentation.
+There is a discussion about finalizing the login functionality and simulating the expected workflow during the demo.
+The team discussed the order of pages on the website, with sign up, login, and homepage being the main focus.
+They also discussed the navigation flow from homepage to sign in/sign up and then to find roommate or find housing.
+There were concerns about the logo and its colors, with plans to make changes and ensure it matches the overall design.

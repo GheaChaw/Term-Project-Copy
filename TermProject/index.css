@@ -1,0 +1,243 @@
+*{
+  margin:0;
+}
+body {
+  background-image: linear-gradient(to bottom right, #F07167,#F7A58F, #FDFCDC);
+}
+
+form {
+  border: 3px solid #F07167;
+  color: #F07167;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Full-width inputs */
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #F07167;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button,
+input[type=submit] {
+  background-color: #F07167;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  /* width: 200px; */
+  height: 250px;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+/*Classes and IDs for home.html*/
+.mainText {
+  text-align: center;
+  color: darkcyan;
+  font-size: 100px;
+  font-family: 'Trebuchet MS', sans-serif;
+  height: 200px;
+  line-height: 200px;
+  padding: 70px;
+  margin-top: 13%;
+  /* max-width: 50%; */
+  /* margin-left: 20%; */
+}
+
+#button2 {
+  float: left;
+  border: 5px solid darkcyan;
+  background-color: darkcyan;
+  color: antiquewhite;
+  border-radius: 5px;
+  text-shadow: 2px 2px 5px grey;
+  font-size: 25px;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin-left: 40px;
+}
+
+.button1 {
+  float: right;
+  border: 5px solid darkcyan;
+  background-color: darkcyan;
+  color: antiquewhite;
+  border-radius: 5px;
+  text-shadow: 2px 2px 5px grey;
+  font-size: 25px;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin-right: 40px;
+}
+
+.message {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.message.success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.message.error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.home-logo {
+  width: 500px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.buttons{
+  border: 3px solid #F07167;
+  background-color: #F48B7B;
+  color: antiquewhite;
+  border-radius: 5px;
+  width: 150px;
+  height:35px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50px;
+  font-size: 20px;
+  display:inherit;
+  justify-content: center;
+  align-items: center;
+  border-radius:10px;
+}
+
+.buttons:hover{
+  background-color: #f27d6f;
+  
+  box-shadow:2px 2px 2px #fdb09a;
+  font-size:21px
+}
+
+.otherButtons{
+  font-size: 20px;
+  width: 100px;
+  height:35px;
+  border-radius: 5px;
+  margin-top:-5px;
+  display:inherit;
+  justify-content: center;
+  align-items: center;
+  margin-left:5px;
+}
+.otherButtons:hover{
+  background-color: #F48B7B;
+  box-shadow:2px 2px 2px #fdb09a;
+  font-size:21px;
+  border: 2px solid #F07167;
+}
+
+#logInSignUp{
+  margin-left:70%;
+  justify-content: center;
+  align-items: center;
+  display:inherit;
+  width:205px;
+  height:39px;
+}
+
+
+.mainBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.mainBox img{
+  height: 60vh;
+
+}
+.imgBox{
+  display:flex;
+  min-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.homeBody{
+  background-image: linear-gradient(to bottom right, #F07167,#F7A58F, #FDFCDC);
+  background-size: contain;
+  min-height:100vh;
+  display:flex;
+  align-items: center;
+  
+}
+hr{
+  height:2px;
+  background-color: #F07167;
+  width:100%;
+  border-radius:3px;
+
+}
+.container{
+  background-color:#FDFCDC;
+}
+.other{
+  color:#F07167;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+.other:hover{
+  color:#f44336;
+  font-family: 'Trebuchet MS', sans-serif;
+}

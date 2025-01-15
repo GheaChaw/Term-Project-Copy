@@ -1,0 +1,7 @@
+The meeting focused on discussing the progress and plans of various team members, including working on a matching system, utilizing SQL queries, creating filters and login functionality.
+
+Sophia is working on a matching system and learning how to combine SQL queries.
+Felipe and Sophia agree that using SQL for filtering and data-related tasks is easier and more accurate.
+Felipe and Sophia plan to review the databases together to understand what they need.
+Ghea has created a pop-up filter on the roommates page using jQuery.
+JJ has been working on the login functionality and plans to link it with other pages.

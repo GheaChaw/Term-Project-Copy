@@ -1,0 +1,5 @@
+The meeting discussed various tasks related to input validation for emails and assigned specific responsibilities to team members.
+
+Felipe is working on input validation for emails in the PHP filter.
+JJ noticed that Zapp was able to input non-emails into the database, so he is working on input validation for emails.
+Sophia will be working on the matching part, Ghea on the roommate project, and Felipe on the survey.

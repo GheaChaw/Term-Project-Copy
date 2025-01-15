@@ -1,0 +1,10 @@
+The team discussed upcoming tasks, potential improvements, and sought clarification on the retrospective, while assigning responsibilities for backlog management.
+
+The team needs to schedule a sprint retrospective with Dr. Callhan, possibly on Thursday or Sunday.
+They are unsure if the midterm presentation counts as a retrospective and plan to ask Callhan.
+They discuss potential tasks for the next sprint, including improving the login functionality and finding a source for property listings.
+Consider creating a portal for admin to review and display submitted forms.
+Focus on styling the homepage to match the overall design.
+Address alignment issues in the survey and finalize it before working on backend functionality.
+Explore the possibility of adding a search feature with filtering options.
+Assign someone to create a product backlog and continue updating the sprint backlog.

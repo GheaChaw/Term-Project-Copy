@@ -1,0 +1,12 @@
+<?php
+
+// this file is git ignored once i fill out the info 
+
+return[
+    'servername' => 'placeholder',
+    'username' => 'placeholder',
+    'password' => 'placeholder',
+    'userDB' => 'placeholder'
+];
+
+?>
